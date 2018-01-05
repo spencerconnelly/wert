@@ -2,12 +2,12 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import MenuBar from '../nav/MenuBar';
 
-const ContactPage = () => (
+const SponsorsPage = () => (
     
     <div class="ui container">
-        <MenuBar active="4"/>
-        <h1>Contact Page</h1>
+        <MenuBar active="5"/>
+        <h1>Sponsors Page</h1>
     </div>
 );
 
-export default ContactPage;
+export default SponsorsPage;
