@@ -3,9 +3,12 @@ import {Link} from 'react-router-dom';
 import MenuBar from '../nav/MenuBar';
 
 const MissionPage = () => (
-    <div class="ui container">
-        <MenuBar active="2"/>
-        <h1>Mission Page</h1>
+    <div> 
+        <MenuBar active="2"/>     
+        <br/>
+        <div class="ui container"> 
+            <h1>Mission Page</h1>
+        </div>   
     </div>
 );
 

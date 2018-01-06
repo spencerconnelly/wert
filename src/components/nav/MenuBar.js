@@ -40,7 +40,7 @@ class MenuBar extends React.Component {
         link5 = <Link class="item active purple" to="/sponsors" >Sponsors</Link>;
     }
     return (
-        <div class="ui secondary pointing menu">
+        <div class="ui top sticky primary pointing menu">
             <div class="item">
                 <img src={process.env.PUBLIC_URL + '/rocketry_logo.png'}  alt='logo' />
             </div>

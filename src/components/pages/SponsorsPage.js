@@ -4,9 +4,12 @@ import MenuBar from '../nav/MenuBar';
 
 const SponsorsPage = () => (
     
-    <div class="ui container">
-        <MenuBar active="5"/>
-        <h1>Sponsors Page</h1>
+    <div> 
+        <MenuBar active="5"/>     
+        <br/>
+        <div class="ui container"> 
+            <h1>Sponsors Page</h1>
+        </div>   
     </div>
 );
 

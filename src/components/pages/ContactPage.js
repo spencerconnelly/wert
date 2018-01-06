@@ -3,10 +3,12 @@ import {Link} from 'react-router-dom';
 import MenuBar from '../nav/MenuBar';
 
 const ContactPage = () => (
-    
-    <div class="ui container">
-        <MenuBar active="4"/>
-        <h1>Contact Page</h1>
+    <div> 
+        <MenuBar active="4"/>     
+        <br/>
+        <div class="ui container"> 
+            <h1>Contact Page</h1>
+        </div>   
     </div>
 );
 
